@@ -147,6 +147,7 @@ function populateProjectData(project) {
       const galleryItem = document.createElement("div");
       galleryItem.className = "gallery-item";
 
+
       if (media.type === "screenshot" || media.type === "gif") {
         galleryItem.innerHTML = `
           <img src="${media.url}" alt="${project.name} ${

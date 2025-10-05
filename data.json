@@ -183,342 +183,112 @@
       "media": []
     },
     {
-      "name": "Kidglish",
-      "cover_image": "assets/covers/Kidglish.png",
-      "short_description": "A dynamic educational mobile app teaching English to children interactively.",
-      "description": "An interactive educational app that teaches English to kids using speech recognition, text-to-speech, and engaging visuals. Features include speaking exercises, handwriting practice, Lottie animations, Firebase-synced content, and AI-powered adaptive learning. Designed for a fun experience with real-time feedback and a responsive, kid-friendly UI.",
+      "name": "GTS Restaurant System (POS & ERP)",
+      "cover_image": "assets/covers/restaurant_cover.png",
+      "short_description": "A comprehensive restaurant Point-of-Sale (POS) system integrated with ERP workflows, managing dine-in, takeaway, and delivery orders with thermal printing.",
+      "description": "Developed a restaurant Point-of-Sale (POS) system deeply integrated with an existing ERP to efficiently manage all order types: dine-in, takeaway, and delivery. Core features include real-time invoice creation, detailed bill calculations, and direct printing via thermal printers. The system supports complex restaurant operations like transferring invoices, switching tables/rooms, and seamless order handover to delivery staff. Built using **Flutter**, **Dart**, and the **Bloc/Cubit** architecture alongside the **MVVM** pattern, ensuring high performance, stability, and smooth integration with the backend ERP services. Project developed between Mar 2025 and Jul 2025.",
       "features": [
-        "Speech-to-text exercises",
-        "Friendly text-to-speech output",
-        "Handwriting practice",
-        "Lottie animations",
-        "Firebase-synced content",
-        "AI-powered adaptive learning",
-        "Interactive games with multiple levels"
+        "Integrated POS for Dine-in, Takeaway, and Delivery order management.",
+        "Automated invoice creation, bill calculation, and thermal printing support (via Bluetooth).",
+        "Advanced table management: invoice transfer and table/room switching.",
+        "Delivery assignment and collection tracking with seamless staff handover.",
+        "Efficient performance and smooth integration with external ERP systems."
       ],
       "technologies_used": [
         "Flutter",
-        "Riverpod",
-        "Hooks",
-        "GoRouter",
-        "Firebase Core",
-        "Firestore",
-        "Text-to-Speech",
-        "Speech-to-Text",
-        "Audio Playback",
-        "SVG Rendering",
-        "Lottie Animations",
-        "Device Preview",
-        "Path Provider",
-        "Google Generative AI",
-        "Signature Capture",
-        "Equatable"
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "MVVM (Architecture)",
+        "REST API / Dio",
+        "Firebase (Core, Cloud Firestore)",
+        "Thermal Printing (Flutter Thermal Printer)",
+        "Bluetooth Communication (Flutter Blue Plus)",
+        "UI/Utility Libraries (e.g., Shimmer, data_table_2, Animation)"
       ],
-      "links": [
-        {
-          "type": "Google Drive",
-          "url": "https://drive.google.com/drive/folders/1RbTfjFqyUkj7dI1dS9Av4lVHUm5HlxOf?usp=sharing"
-        }
-      ],
-      "media": [
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish1.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish2.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish3.jpg"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish4.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish5.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish6.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish7.gif"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish8.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish9.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish10.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Kidglish/Kidglish11.jpg"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish12.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish13.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish14.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish15.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish16.gif"
-        },
-        {
-          "type": "gif",
-          "url": "assets/screenshots/Kidglish/Kidglish17.gif"
-        }
-      ]
+      "links": [],
+      "media": []
     },
     {
-      "name": "Lifeline",
-      "cover_image": "assets/covers/Lifeline.png",
-      "short_description": "A bilingual health assistant app with Light/Dark mode, localization, and local notifications for medical resources, emergencies, and health management.",
-      "description": "A bilingual (Arabic/English) health assistant app with Light/Dark mode, localization, and local notifications, offering medical resources, emergency tools, and personal health management. Key features include disease search, emergency guides, hospital locator with maps, first aid videos, daily health tips, medication tracking, and appointment reminders.",
+      "name": "GTS E-Commerce (ERP Integrated)",
+      "cover_image": "assets/covers/ecommerce_cover.png",
+      "short_description": "An ERP-integrated e-commerce platform for product browsing, secure order placement, purchase management, and online payment processing.",
+      "description": "Developed a full-featured e-commerce application integrated with an Enterprise Resource Planning (ERP) system to manage the entire sales lifecycle. Features include detailed product browsing, secure order placement, purchase history management, and integrated notifications. Crucially, the system incorporated a secure payment gateway for seamless online transactions and utilized **SignalR** for real-time updates and notification synchronization. Built with **Flutter**, **Dart**, and the **Bloc/Cubit** architecture following the **MVVM** pattern, ensuring high stability and efficient ERP integration. Project developed between Jul 2025 and Sep 2025.",
       "features": [
-        "Bilingual support (Arabic/English)",
-        "Light/Dark mode",
+        "Full-featured product catalog and browsing experience.",
+        "Secure shopping cart and order placement integrated with ERP.",
+        "Integrated secure payment gateway for online transactions (Pay Integration).",
+        "Real-time order status and notification system (SignalR/Firebase Messaging).",
+        "Comprehensive purchase history and management features."
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "MVVM (Architecture)",
+        "REST API / Dio",
+        "SignalR (Real-time Communication)",
+        "Payment Gateway Integration (Flutter Credit Card UI)",
+        "Firebase Cloud Messaging & Local Notifications",
+        "UI/Utility Libraries (e.g., Lottie, Shimmer, Animation, Staggered Grid View)"
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "name": "GTS Delivery",
+      "cover_image": "assets/covers/delivery_cover.png",
+      "short_description": "A real-time delivery management application integrated with the E-commerce system for order assignment, tracking, and payment collection.",
+      "description": "Developed a dedicated mobile application for delivery personnel, seamlessly connected to the e-commerce system to handle real-time logistics and order assignments. The app utilized **SignalR** for instant order updates and notifications, allowing delivery staff to accept or reject orders in real-time. Key features included secure payment collection, comprehensive order tracking, and advanced localization support, ensuring smooth, coordinated workflow between the e-commerce platform, customers, and the delivery team. Built using **Flutter**, **Dart**, and the **Bloc/Cubit** architecture following the **MVVM** pattern. Project developed between Sep 2025 and Oct 2025.",
+      "features": [
+        "Real-time order assignment and status management.",
+        "SignalR integration for instant notifications (accept/reject functionality).",
+        "Features for tracking and handling payment collections.",
+        "Smooth coordination and communication between systems.",
+        "Multi-language support (Localization)."
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "MVVM (Architecture)",
+        "REST API / Dio",
+        "SignalR (Real-time Communication)",
         "Localization",
-        "Disease search by name or symptoms",
-        "Emergency case guides with first aid steps",
-        "Built-in and custom emergency contacts with direct call",
-        "Nearby hospital locator with map integration",
-        "First aid videos",
-        "Daily health tips with share option",
-        "Medication tracking with reminders",
-        "Appointment reminders",
-        "Local notifications for tips and alerts",
-        "User profile management"
+        "Animation (Lottie, Carousel Slider)",
+        "Utility Libraries (e.g., Flutter Secure Storage, Timeago, Connectivity Monitor)"
       ],
-      "technologies_used": ["Flutter", "Riverpod"],
-      "links": [
-        {
-          "type": "Google Drive",
-          "url": "https://drive.google.com/drive/folders/1hwMwvUsj3sSgkXDQ83w_GnoKNIkufDEn"
-        }
-      ],
-      "media": [
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline1.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline2.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline3.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline4.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline5.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline6.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline7.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline8.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline9.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline10.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline11.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline12.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline13.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline14.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline15.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline16.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline17.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline18.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline19.jpg"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/Lifeline/Lifeline20.jpg"
-        }
-      ]
+      "links": [],
+      "media": []
     },
     {
-      "name": "Bank Dash",
-      "cover_image": "assets/covers/BankDash.png",
-      "short_description": "A modern banking application built with Flutter that provides a complete financial management solution.",
-      "description": "Bank Dash is a modern banking application built with Flutter that provides a complete financial management solution. It offers features like: account overview, transaction history, money transfers, bill payments, and financial analytics, with responsive designs for both mobile and desktop platforms.",
+      "name": "Ghosn App (AI Plant Assistant & Store)",
+      "cover_image": "assets/covers/Ghosn.png",
+      "short_description": "A personal plant care assistant and e-commerce platform featuring AI-powered disease diagnosis via image recognition.",
+      "description": "Ghosn acts as a comprehensive personal guide for plant enthusiasts, covering selection, care, and commerce. The application offers a wide variety of plants through an integrated online store and provides expert, tailored care documentation for each user's plants. Its most advanced feature is the **AI Assistant**, which uses machine learning and image recognition to accurately identify plant diseases. The platform also includes a community hub and a reliable **Reminders/Notification** system for watering and pruning routines. The application is built using **Flutter**, Dart, and incorporates **Firebase**, **GraphQL/RESTful APIs**, and the robust **Cubit/Bloc** architecture following the **MVVM** pattern.",
       "features": [
-        "Account overview",
-        "Transaction history",
-        "Money transfers",
-        "Bill payments",
-        "Financial analytics",
-        "Responsive design (mobile and desktop)"
+        "Personalized Plant Assistant for selection and care.",
+        "Online Plant Store offering a wide variety of flora.",
+        "AI Assistant for plant disease diagnosis (Image Recognition/Machine Learning).",
+        "Community platform for plant enthusiasts.",
+        "Automated reminders and notifications for plant care (Watering/Pruning).",
+        "Full-stack integration using Firebase, GraphQL, and RESTful APIs."
       ],
       "technologies_used": [
         "Flutter",
-        "Bloc",
-        "GoRouter",
-        "Flutter SVG",
-        "Device Preview",
-        "Expandable Page View",
-        "FL Chart",
-        "Syncfusion Charts",
-        "Syncfusion Localizations",
-        "Intl",
-        "Zoom Widget"
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "MVVM (Architecture)",
+        "GraphQL / RESTful API (Dio)",
+        "Firebase (Core, Messaging)",
+        "AI/ML Integration (for Diagnosis)",
+        "GoRouter (Navigation)",
+        "GetIt (Dependency Injection)",
+        "Animation (Lottie, Rive)",
+        "Camera / Image Picker",
+        "Local Notifications & WorkManager"
       ],
-      "links": [
-        {
-          "type": "GitHub",
-          "url": "https://github.com/mohamedrashad102/bank_dash"
-        }
-      ],
-      "media": [
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash1.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash2.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash3.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash4.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash5.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash6.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash7.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash8.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash9.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash10.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash11.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash12.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash13.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash14.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash15.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash16.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash17.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash18.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash19.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash20.png"
-        },
-        {
-          "type": "screenshot",
-          "url": "assets/screenshots/BankDash/BankDash21.png"
-        }
-      ]
+      "links": [],
+      "media": []
     }
   ]
 }
