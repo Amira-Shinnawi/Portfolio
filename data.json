@@ -1,0 +1,524 @@
+{
+  "personal_info": {
+    "name": "Amira Shinnawi",
+    "title": "Flutter Developer | Mobile App Developer",
+    "profile_image": "assets/profile/profile.jpeg",
+    "location": "Kafr El Sheikh, Egypt",
+    "contact": {
+      "phone": "+20 1025167595",
+      "email": "amirashenawy123@gmail.com"
+    },
+    "social_links": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Amira-Shinnawi"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/amira-shinnawi/"
+      }
+    ],
+    "cv_download": "assets/downloads/Amira_Shinnawi_CV.pdf",
+    "about_me": "Mobile App Developer with 1 year of experience in cross-platform development, specializing in Flutter. Skilled in building high-performance, user-focused apps with clean architecture. Also work as a freelance Flutter Instructor, delivering tailored training and mentorship. Passionate about continuous learning, innovation, and contributing to impactful projects within dynamic teams."
+  },
+
+  "projects_num": "6",
+  "experience_num": "1",
+  "customers_num": "0",
+
+  "skills": {
+    "soft_skills": [
+      "Collaborative",
+      "Multitasking",
+      "Teamwork",
+      "Organized",
+      "Strong Communicator",
+      "Efficient Time-Manager",
+      "Analytical",
+      "Adaptable",
+      "Proactive",
+      "Detail-Oriented",
+      "Goal-Oriented",
+      "Self-Learner",
+      "Critical Thinker"
+    ],
+    "technical_skills": [
+      "Languages: Dart, Java, C#, HTML, CSS",
+      "Concepts: OOP, Clean Code, SOLID Principal, Design Patterns",
+      "Frameworks and Libraries: Flutter",
+      "Databases: Firebase, Xampp, Hive and SQLite",
+      "APIs: RESTful APIs, GraphQL",
+      "Tools: GitHub, Git, Firebase, Postman, Figma",
+      "Architectural Patterns:: Clean Architecture, Bloc Pattern, MVVM, MVC",
+      "Responsive UI and Custom Widgets",
+      "Testing and Debugging"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Computers and Information Sciences",
+      "institution": " Kafr El-Shaykh University",
+      "date_range": "2020 - 2024"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Flutter Developer",
+      "company": " GTS(Global Technology Solutions)",
+      "location": "Mansoura, Egypt",
+      "date_range": "Nov 2024",
+      "description_points": [
+        "Contributed to the development of 4+ cross-platform mobile applications using the Flutter framework.",
+        "Collaborated with designers to translate wireframes and mockups into functional features, and worked with backend teams for API integration.",
+        "Prepared applications for testing and deployment on Google Play and Apple App Store.",
+        "Participated in code reviews, debugging, and performance optimization, ensuring maintainable and efficient code.",
+        "Optimized performance and stayed updated with the latest Flutter best practices."
+      ]
+    },
+    {
+      "title": "Flutter Instructor (Freelance)",
+      "company": "Self-Employed",
+      "location": "Remote",
+      "date_range": "June 2024",
+      "description_points": [
+        "Conduct private, online training sessions in Flutter and Dart for individuals and small groups.",
+        "Simplify complex concepts and provide tailored learning approaches to match student levels.",
+        "Mentor learners in building functional, responsive mobile applications and applying best practices."
+      ]
+    },
+    {
+      "title": "Flutter Instructor",
+      "company": "Mindset Trainings",
+      "location": "KafrEl Sheikh, Egypt",
+      "date_range": "Sep 2024",
+      "description_points": [
+        "Developed and delivered comprehensive Flutter courses from beginner to advanced levels, guiding students through building mobile applications.",
+        "Created Structured Lesson Plans: Covered key topics including Flutter basics, UI/UX design, state management, and advanced topics like API integration and Firebase.",
+        "Provided Hands-On Guidance: Ensured practical understanding through real-world projects, quizzes, and personalized feedback.",
+        "Mentored on Best Practices: Taught Flutter development best practices, including resource management, state management, and performance optimization"
+      ]
+    },
+    {
+      "title": "Software Engineer Developer",
+      "company": " Orange Digital Center",
+      "location": "Mansoura, Egypt",
+      "date_range": "Aug 2023",
+      "description_points": [
+        "Solidified software engineering fundamentals through dedicated courses in OOP, design patterns, and unit testing.",
+        "Successfully applied acquired knowledge to a real project, enhancing code quality and maintainability.",
+        "Implemented various design patterns to optimize code structure and reusability.",
+        "Established a robust unit testing framework, ensuring code reliability and facilitating bug detection.",
+        "Contributed to project success through effective problem-solving and teamwork."
+      ]
+    },
+    {
+      "title": "Flutter Developer Trainee",
+      "company": "Google Developer Student Club",
+      "location": "Remote",
+      "date_range": "Dec 2022",
+      "description_points": [
+        "Developed and maintained Flutter applications using Dart programming language.",
+        "Implemented MVVM and MVC architecture for robust and scalable app structure.",
+        "Integrated RESTful APIs and GraphQL to connect frontend with backend services seamlessly.",
+        "Utilized Shared Preferences and Hive for efficient local data storage and management.",
+        "Completed a Flutter project from inception to deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Dalil",
+      "cover_image": "assets/covers/dalil_mockup.png",
+      "short_description": "A comprehensive guide app offering technical services, real-time chat support, and secure in-app payments.",
+      "description": "Developed a comprehensive guide app offering various technical services, including identity/profile design, and website and application creation. The app features robust real-time communication by integrating Agora for chat and calls, and ensures secure transactions via Moyaser for in-app payments. The application was built using Flutter, Dart, and the Bloc/Cubit architecture, following the MVVM pattern for a scalable, smooth, and maintainable codebase. Project developed between Nov 2024 and Jan 2024.",
+      "features": [
+        "Comprehensive catalog of technical services (design, web/app creation)",
+        "Real-time chat and calls via Agora for technical support",
+        "Secure in-app payment processing using Moyasar integration",
+        "MVVM architecture for enhanced scalability and maintainability",
+        "Localization support for multi-language usage"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "MVVM (Architecture)",
+        "Agora (Chat/Calls SDKs)",
+        "Moyasar (Payment Gateway)",
+        "Firebase Cloud Messaging",
+        "REST API / Dio",
+        "Localization",
+        "Audio & Media Handlers (e.g., Audio Players, Flutter Sound)",
+        "UI/Utility Libraries (e.g., Shimmer, Lottie, ScreenUtil)"
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "name": "GTS System",
+      "cover_image": "assets/covers/erp_cover.png",
+      "short_description": "An ERP application for sales representatives integrated with accounting and business workflows, featuring thermal printing capabilities.",
+      "description": "An Enterprise Resource Planning (ERP) system developed for sales representatives to manage core accounting and business workflows. Key functionalities included end-to-end invoice creation, receipt generation, and direct printing via thermal printers. The system also managed stock transfer requests, customer data, and facilitated comprehensive report generation and sharing, all supported by real-time notifications for seamless workflow integration. Built with **Flutter**, **Dart**, and the **Bloc/Cubit** architecture for high scalability and efficient performance. Project developed between Jan 2025 and Mar 2025.",
+      "features": [
+        "Full ERP support for sales and accounting workflows",
+        "Invoice and receipt voucher creation with thermal printer support (ESC/POS)",
+        "Real-time stock transfer request management",
+        "Customer relationship management (CRM) capabilities",
+        "Comprehensive report generation and sharing functionality",
+        "Real-time notification system (Firebase Cloud Messaging)"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "MVC (Architecture)",
+        "Firebase (Core, Cloud Firestore, Messaging)",
+        "REST API / Dio",
+        "Thermal Printing",
+        "PDF Generation (pdf, qr_flutter)",
+        "Animation",
+        "UI/Utility Libraries"
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "name": "Kidglish",
+      "cover_image": "assets/covers/Kidglish.png",
+      "short_description": "A dynamic educational mobile app teaching English to children interactively.",
+      "description": "An interactive educational app that teaches English to kids using speech recognition, text-to-speech, and engaging visuals. Features include speaking exercises, handwriting practice, Lottie animations, Firebase-synced content, and AI-powered adaptive learning. Designed for a fun experience with real-time feedback and a responsive, kid-friendly UI.",
+      "features": [
+        "Speech-to-text exercises",
+        "Friendly text-to-speech output",
+        "Handwriting practice",
+        "Lottie animations",
+        "Firebase-synced content",
+        "AI-powered adaptive learning",
+        "Interactive games with multiple levels"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Riverpod",
+        "Hooks",
+        "GoRouter",
+        "Firebase Core",
+        "Firestore",
+        "Text-to-Speech",
+        "Speech-to-Text",
+        "Audio Playback",
+        "SVG Rendering",
+        "Lottie Animations",
+        "Device Preview",
+        "Path Provider",
+        "Google Generative AI",
+        "Signature Capture",
+        "Equatable"
+      ],
+      "links": [
+        {
+          "type": "Google Drive",
+          "url": "https://drive.google.com/drive/folders/1RbTfjFqyUkj7dI1dS9Av4lVHUm5HlxOf?usp=sharing"
+        }
+      ],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish1.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish2.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish3.jpg"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish4.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish5.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish6.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish7.gif"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish8.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish9.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish10.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Kidglish/Kidglish11.jpg"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish12.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish13.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish14.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish15.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish16.gif"
+        },
+        {
+          "type": "gif",
+          "url": "assets/screenshots/Kidglish/Kidglish17.gif"
+        }
+      ]
+    },
+    {
+      "name": "Lifeline",
+      "cover_image": "assets/covers/Lifeline.png",
+      "short_description": "A bilingual health assistant app with Light/Dark mode, localization, and local notifications for medical resources, emergencies, and health management.",
+      "description": "A bilingual (Arabic/English) health assistant app with Light/Dark mode, localization, and local notifications, offering medical resources, emergency tools, and personal health management. Key features include disease search, emergency guides, hospital locator with maps, first aid videos, daily health tips, medication tracking, and appointment reminders.",
+      "features": [
+        "Bilingual support (Arabic/English)",
+        "Light/Dark mode",
+        "Localization",
+        "Disease search by name or symptoms",
+        "Emergency case guides with first aid steps",
+        "Built-in and custom emergency contacts with direct call",
+        "Nearby hospital locator with map integration",
+        "First aid videos",
+        "Daily health tips with share option",
+        "Medication tracking with reminders",
+        "Appointment reminders",
+        "Local notifications for tips and alerts",
+        "User profile management"
+      ],
+      "technologies_used": ["Flutter", "Riverpod"],
+      "links": [
+        {
+          "type": "Google Drive",
+          "url": "https://drive.google.com/drive/folders/1hwMwvUsj3sSgkXDQ83w_GnoKNIkufDEn"
+        }
+      ],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline1.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline2.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline3.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline4.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline5.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline6.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline7.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline8.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline9.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline10.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline11.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline12.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline13.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline14.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline15.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline16.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline17.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline18.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline19.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/Lifeline/Lifeline20.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Bank Dash",
+      "cover_image": "assets/covers/BankDash.png",
+      "short_description": "A modern banking application built with Flutter that provides a complete financial management solution.",
+      "description": "Bank Dash is a modern banking application built with Flutter that provides a complete financial management solution. It offers features like: account overview, transaction history, money transfers, bill payments, and financial analytics, with responsive designs for both mobile and desktop platforms.",
+      "features": [
+        "Account overview",
+        "Transaction history",
+        "Money transfers",
+        "Bill payments",
+        "Financial analytics",
+        "Responsive design (mobile and desktop)"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Bloc",
+        "GoRouter",
+        "Flutter SVG",
+        "Device Preview",
+        "Expandable Page View",
+        "FL Chart",
+        "Syncfusion Charts",
+        "Syncfusion Localizations",
+        "Intl",
+        "Zoom Widget"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/mohamedrashad102/bank_dash"
+        }
+      ],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash3.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash4.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash5.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash6.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash7.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash8.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash9.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash10.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash11.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash12.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash13.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash14.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash15.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash16.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash17.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash18.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash19.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash20.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/BankDash/BankDash21.png"
+        }
+      ]
+    }
+  ]
+}
