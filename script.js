@@ -433,7 +433,7 @@ async function loadDataWithData(data) {
 
   document.getElementById("projectsNum").textContent = data.projects.length;
   document.getElementById("experienceNum").textContent = data.experience_num;
-  document.getElementById("customersNum").textContent = data.customers_num;
+  // document.getElementById("customersNum").textContent = data.customers_num;
 
   document.getElementById("aboutMe").textContent = data.personal_info.about_me;
   document.getElementById("location").textContent = data.personal_info.location;
