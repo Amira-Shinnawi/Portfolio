@@ -261,6 +261,43 @@
       "media": []
     },
     {
+      "name": "Islami",
+      "cover_image": "assets/covers/islami_cover.jpeg",
+      "short_description": "A complete offline Islamic application with Quran, Tafseer, prayer times, Azan alerts, reciters, radio, and Qibla direction — all stored locally using Hive.",
+      "description": "Developed a comprehensive offline Islamic application using **Flutter**, **Dart**, and **Hive** for local storage. The app provides a seamless spiritual experience without requiring an internet connection. It includes accurate **Azan notifications**, a **full Quran with Tafseer**, multiple **reciters for Quran playback**, a **Qibla compass** for prayer direction, **Islamic radio channels**, **daily duas and azkar**, and step-by-step **guides for prayer and wudu**. Implemented **Cubit/Bloc** for state management, **background services** for notifications and alarms, and localization support for multi-language usage. Project built between Aug 2025 and Oct 2025.",
+      "features": [
+        "Offline Quran with Tafseer and audio playback by multiple reciters.",
+        "Prayer time notifications with custom Azan sounds.",
+        "Qibla direction compass using device sensors.",
+        "Islamic radio and live Quran channels.",
+        "Daily Azkar, Duas, and prayer/wudu guidance.",
+        "Background services for Azan and reminders.",
+        "Multi-language support (Arabic/English/French).",
+        "Hive-based local storage for all data and media."
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit/Bloc (State Management)",
+        "Clean Architecture",
+        "Hive / Hive Flutter (Local Storage)",
+        "REST API / Dio",
+        "Flutter Background Service",
+        "Flutter Local Notifications",
+        "Adhan Dart (Prayer Time Calculation)",
+        "Flutter Compass / Geolocator (Qibla)",
+        "Just Audio / Better Player (Audio & Video)",
+        "Workmanager (Background Tasks)",
+        "Lottie / Shimmer (Animations)",
+        "Localization & Intl",
+        "Permission Handler",
+        "Firebase (Crashlytics, Analytics)",
+        "Timezone / Alarm / Android Alarm Manager Plus"
+      ],
+      "links": [],
+      "media": []
+    },
+    {
       "name": "Ghosn App (AI Plant Assistant & Store)",
       "cover_image": "assets/covers/Ghosn.png",
       "short_description": "A personal plant care assistant and e-commerce platform featuring AI-powered disease diagnosis via image recognition.",
