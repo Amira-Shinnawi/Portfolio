@@ -3,7 +3,7 @@
     "name": "Amira Shinnawi",
     "title": "Flutter Developer | Mobile App Developer",
     "profile_image": "assets/profile/profile.png",
-    "location": "Kafr El Sheikh, Egypt",
+    "location": "Cairo, Egypt",
     "contact": {
       "phone": "+20 1025167595",
       "email": "amirashenawy123@gmail.com"
@@ -19,11 +19,11 @@
       }
     ],
     "cv_download": "assets/downloads/Amira_Shinnawi_CV.pdf",
-    "about_me": "Mobile App Developer with 1 year of experience in cross-platform development, specializing in Flutter. Skilled in building high-performance, user-focused apps with clean architecture. Also work as a freelance Flutter Instructor, delivering tailored training and mentorship. Passionate about continuous learning, innovation, and contributing to impactful projects within dynamic teams."
+    "about_me": "Mobile App Developer} with 2+ years of experience in cross-platform development using Flutter. Experienced in building scalable, high-performance mobile applications with clean architecture and modern state management. Also working as a freelance Flutter Instructor, mentoring developers and delivering practical training. Passionate about continuous learning and building impactful products."
   },
 
   "projects_num": "6",
-  "experience_num": "1",
+  "experience_num": "2",
   "customers_num": "0",
 
   "skills": {
@@ -40,7 +40,8 @@
       "Detail-Oriented",
       "Goal-Oriented",
       "Self-Learner",
-      "Critical Thinker"
+      "Critical Thinker",
+      "Work Under Pressure"
     ],
     "technical_skills": [
       "Languages: Dart, Java, C#, HTML, CSS",
@@ -61,71 +62,134 @@
       "date_range": "2020 - 2024"
     }
   ],
+
   "experience": [
     {
-      "title": "Flutter Developer",
-      "company": " GTS(Global Technology Solutions)",
+      "title": "Mobile App Developer",
+      "company": "GTS (Global Technology Solutions)",
       "location": "Mansoura, Egypt",
       "date_range": "Nov 2024 - Present",
       "description_points": [
-        "Contributed to the development of 4+ cross-platform mobile applications using the Flutter framework.",
-        "Collaborated with designers to translate wireframes and mockups into functional features, and worked with backend teams for API integration.",
-        "Prepared applications for testing and deployment on Google Play and Apple App Store.",
-        "Participated in code reviews, debugging, and performance optimization, ensuring maintainable and efficient code.",
-        "Optimized performance and stayed updated with the latest Flutter best practices."
-      ]
-    },
-    {
-      "title": "Flutter Instructor (Freelance)",
-      "company": "Self-Employed",
-      "location": "Remote",
-      "date_range": "June 2024 - Present",
-      "description_points": [
-        "Conduct private, online training sessions in Flutter and Dart for individuals and small groups.",
-        "Simplify complex concepts and provide tailored learning approaches to match student levels.",
-        "Mentor learners in building functional, responsive mobile applications and applying best practices."
+        "Developed and maintained 6+ cross-platform mobile applications using Flutter.",
+        "Collaborated with UI/UX designers and backend teams for API integration.",
+        "Prepared and deployed applications to Google Play and Apple App Store."
       ]
     },
     {
       "title": "Flutter Instructor",
       "company": "Mindset Trainings",
-      "location": "KafrEl Sheikh, Egypt",
-      "date_range": "Sep 2024 – Nov2024",
+      "location": "Kafr El Sheikh, Egypt",
+      "date_range": "Jun 2024 - Nov 2024",
       "description_points": [
-        "Developed and delivered comprehensive Flutter courses from beginner to advanced levels, guiding students through building mobile applications.",
-        "Created Structured Lesson Plans: Covered key topics including Flutter basics, UI/UX design, state management, and advanced topics like API integration and Firebase.",
-        "Provided Hands-On Guidance: Ensured practical understanding through real-world projects, quizzes, and personalized feedback.",
-        "Mentored on Best Practices: Taught Flutter development best practices, including resource management, state management, and performance optimization"
+        "Delivered Flutter courses from beginner to advanced levels.",
+        "Covered UI development, state management, API integration, and Firebase.",
+        "Guided students through hands-on projects and Flutter best practices."
       ]
     },
     {
-      "title": "Software Engineer Developer",
-      "company": " Orange Digital Center",
+      "title": "Software Technology Summer Training",
+      "company": "Orange Digital Center",
       "location": "Mansoura, Egypt",
-      "date_range": "Aug 2023 – Sep 2023",
+      "date_range": "Aug 2023 - Sep 2023",
       "description_points": [
-        "Solidified software engineering fundamentals through dedicated courses in OOP, design patterns, and unit testing.",
-        "Successfully applied acquired knowledge to a real project, enhancing code quality and maintainability.",
-        "Implemented various design patterns to optimize code structure and reusability.",
-        "Established a robust unit testing framework, ensuring code reliability and facilitating bug detection.",
-        "Contributed to project success through effective problem-solving and teamwork."
+        "Learned software engineering fundamentals including OOP and design patterns.",
+        "Built a structured software project applying best practices.",
+        "Implemented unit testing to improve reliability and code quality."
       ]
     },
     {
-      "title": "Flutter Developer Trainee",
+      "title": "Flutter Track Trainee",
       "company": "Google Developer Student Club",
-      "location": "Remote",
-      "date_range": "Dec 2022",
+      "location": "Egypt",
+      "date_range": "Dec 2022 - Sep 2023",
       "description_points": [
-        "Developed and maintained Flutter applications using Dart programming language.",
-        "Implemented MVVM and MVC architecture for robust and scalable app structure.",
-        "Integrated RESTful APIs and GraphQL to connect frontend with backend services seamlessly.",
-        "Utilized Shared Preferences and Hive for efficient local data storage and management.",
-        "Completed a Flutter project from inception to deployment."
+        "Developed Flutter applications using Dart.",
+        "Integrated REST APIs and GraphQL services.",
+        "Implemented local storage using SharedPreferences and Hive."
       ]
     }
   ],
-  "projects": [
+  "projects": [{
+  "name": "Islami Hub",
+  "cover_image": "assets/covers/islami_cover.jpeg",
+  "short_description": "A complete offline Islamic app featuring Quran, Tafseer, prayer times, Qibla compass, Azkar, Islamic radio, and audio reciters.",
+  "description": "Islami Hub is a fully offline Islamic mobile application developed using Flutter and Hive for local storage. The app provides a comprehensive spiritual experience including a complete Quran with Tafseer, multiple reciters for audio playback, accurate prayer time notifications, a Qibla compass for direction, Islamic radio channels, and daily Azkar and Duas. The project follows Clean Architecture principles and uses Cubit for state management to maintain scalability and performance. Published on the Apple App Store. Project developed between Oct 2025 and Nov 2025.",
+  "features": [
+    "Offline-first architecture using Hive local storage",
+    "Complete Quran with Tafseer and multiple reciters",
+    "Prayer time notifications with Azan alerts",
+    "Qibla direction compass",
+    "Islamic radio and live Quran channels",
+    "Daily Azkar and Duas",
+    "Prayer and Wudu guidance"
+  ],
+  "technologies_used": [
+    "Flutter",
+    "Dart",
+    "Cubit (State Management)",
+    "Clean Architecture",
+    "Hive (Local Storage)",
+    "REST API",
+    "Audio Player",
+    "Animations"
+  ],
+  "links": [
+    "https://apps.apple.com/us/app/islami-hub/id6756878998"
+  ],
+  "media": []
+},
+{
+  "name": "CRM GTS",
+  "cover_image": "assets/covers/crm.png",
+  "short_description": "A customer support mobile application that allows users to submit, track, and manage support tickets in real time.",
+  "description": "CRM GTS is a customer support mobile application developed for GTS product users to submit, manage, and track support tickets efficiently. The app integrates Firebase Cloud Messaging for real-time push notifications and supports RESTful and GraphQL APIs for seamless communication with backend services. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture. Published on the Apple App Store. Project developed between Apr 2025 and Aug 2025.",
+  "features": [
+    "Support ticket submission and tracking system",
+    "Real-time push notifications via Firebase Cloud Messaging",
+    "Integration with RESTful APIs and GraphQL services",
+    "Scalable MVVM architecture",
+    "Efficient state management using Cubit/BLoC"
+  ],
+  "technologies_used": [
+    "Flutter",
+    "Dart",
+    "Firebase Cloud Messaging",
+    "REST API",
+    "GraphQL",
+    "Cubit / BLoC",
+    "MVVM Architecture"
+  ],
+  "links": [
+    "https://apps.apple.com/us/app/crm-gts/id6755529911"
+  ],
+  "media": []
+},
+{
+  "name": "The Kitchen (Restaurant POS)",
+  "cover_image": "assets/covers/the_kitchen.png",
+  "short_description": "A tablet-based restaurant POS system integrated with ERP and CRM to manage dine-in, takeaway, and delivery operations.",
+  "description": "The Kitchen is a tablet-based restaurant POS system integrated with ERP and CRM systems to manage all restaurant operations including dine-in, takeaway, and delivery orders. The system supports invoice creation with thermal printing, table switching, order transfers, daily opening/closing operations, reporting, collections, and refunds. Built using Flutter with Cubit state management following MVVM architecture and integrated with backend ERP services. The application has been submitted for Apple App Store deployment and is currently pending release. Project developed between Nov 2025 and Mar 2026.",
+  "features": [
+    "Full restaurant POS system for dine-in, takeaway, and delivery",
+    "Invoice creation with thermal printing support",
+    "Table switching and order transfer management",
+    "Daily open/close operations with financial reports",
+    "Collection and refund management",
+    "ERP and CRM integration"
+  ],
+  "technologies_used": [
+    "Flutter",
+    "Dart",
+    "Cubit (State Management)",
+    "MVVM Architecture",
+    "REST API",
+    "Thermal Printing",
+    "ERP Integration",
+    "Animations"
+  ],
+  "links": [],
+  "media": []
+},
     {
       "name": "Dalil",
       "cover_image": "assets/covers/dalil_mockup.png",
@@ -182,32 +246,7 @@
       "links": [],
       "media": []
     },
-    {
-      "name": "GTS Restaurant System (POS & ERP)",
-      "cover_image": "assets/covers/restaurant_cover.png",
-      "short_description": "A comprehensive restaurant Point-of-Sale (POS) system integrated with ERP workflows, managing dine-in, takeaway, and delivery orders with thermal printing.",
-      "description": "Developed a restaurant Point-of-Sale (POS) system deeply integrated with an existing ERP to efficiently manage all order types: dine-in, takeaway, and delivery. Core features include real-time invoice creation, detailed bill calculations, and direct printing via thermal printers. The system supports complex restaurant operations like transferring invoices, switching tables/rooms, and seamless order handover to delivery staff. Built using **Flutter**, **Dart**, and the **Bloc/Cubit** architecture alongside the **MVVM** pattern, ensuring high performance, stability, and smooth integration with the backend ERP services. Project developed between Mar 2025 and Jul 2025.",
-      "features": [
-        "Integrated POS for Dine-in, Takeaway, and Delivery order management.",
-        "Automated invoice creation, bill calculation, and thermal printing support (via Bluetooth).",
-        "Advanced table management: invoice transfer and table/room switching.",
-        "Delivery assignment and collection tracking with seamless staff handover.",
-        "Efficient performance and smooth integration with external ERP systems."
-      ],
-      "technologies_used": [
-        "Flutter",
-        "Dart",
-        "Cubit/Bloc (State Management)",
-        "MVVM (Architecture)",
-        "REST API / Dio",
-        "Firebase (Core, Cloud Firestore)",
-        "Thermal Printing (Flutter Thermal Printer)",
-        "Bluetooth Communication (Flutter Blue Plus)",
-        "UI/Utility Libraries (e.g., Shimmer, data_table_2, Animation)"
-      ],
-      "links": [],
-      "media": []
-    },
+  
     {
       "name": "GTS E-Commerce (ERP Integrated)",
       "cover_image": "assets/covers/ecommerce_cover.png",
@@ -260,43 +299,7 @@
       "links": [],
       "media": []
     },
-    {
-      "name": "Islami",
-      "cover_image": "assets/covers/islami_cover.jpeg",
-      "short_description": "A complete offline Islamic application with Quran, Tafseer, prayer times, Azan alerts, reciters, radio, and Qibla direction — all stored locally using Hive.",
-      "description": "Developed a comprehensive offline Islamic application using **Flutter**, **Dart**, and **Hive** for local storage. The app provides a seamless spiritual experience without requiring an internet connection. It includes accurate **Azan notifications**, a **full Quran with Tafseer**, multiple **reciters for Quran playback**, a **Qibla compass** for prayer direction, **Islamic radio channels**, **daily duas and azkar**, and step-by-step **guides for prayer and wudu**. Implemented **Cubit/Bloc** for state management, **background services** for notifications and alarms, and localization support for multi-language usage. Project built between Aug 2025 and Oct 2025.",
-      "features": [
-        "Offline Quran with Tafseer and audio playback by multiple reciters.",
-        "Prayer time notifications with custom Azan sounds.",
-        "Qibla direction compass using device sensors.",
-        "Islamic radio and live Quran channels.",
-        "Daily Azkar, Duas, and prayer/wudu guidance.",
-        "Background services for Azan and reminders.",
-        "Multi-language support (Arabic/English/French).",
-        "Hive-based local storage for all data and media."
-      ],
-      "technologies_used": [
-        "Flutter",
-        "Dart",
-        "Cubit/Bloc (State Management)",
-        "Clean Architecture",
-        "Hive / Hive Flutter (Local Storage)",
-        "REST API / Dio",
-        "Flutter Background Service",
-        "Flutter Local Notifications",
-        "Adhan Dart (Prayer Time Calculation)",
-        "Flutter Compass / Geolocator (Qibla)",
-        "Just Audio / Better Player (Audio & Video)",
-        "Workmanager (Background Tasks)",
-        "Lottie / Shimmer (Animations)",
-        "Localization & Intl",
-        "Permission Handler",
-        "Firebase (Crashlytics, Analytics)",
-        "Timezone / Alarm / Android Alarm Manager Plus"
-      ],
-      "links": [],
-      "media": []
-    },
+  
     {
       "name": "Ghosn App (AI Plant Assistant & Store)",
       "cover_image": "assets/covers/Ghosn.png",
