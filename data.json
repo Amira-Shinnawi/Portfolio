@@ -109,87 +109,100 @@
       ]
     }
   ],
-  "projects": [{
-  "name": "Islami Hub",
-  "cover_image": "assets/covers/islami_cover.jpeg",
-  "short_description": "A complete offline Islamic app featuring Quran, Tafseer, prayer times, Qibla compass, Azkar, Islamic radio, and audio reciters.",
-  "description": "Islami Hub is a fully offline Islamic mobile application developed using Flutter and Hive for local storage. The app provides a comprehensive spiritual experience including a complete Quran with Tafseer, multiple reciters for audio playback, accurate prayer time notifications, a Qibla compass for direction, Islamic radio channels, and daily Azkar and Duas. The project follows Clean Architecture principles and uses Cubit for state management to maintain scalability and performance. Published on the Apple App Store. Project developed between Oct 2025 and Nov 2025.",
-  "features": [
-    "Offline-first architecture using Hive local storage",
-    "Complete Quran with Tafseer and multiple reciters",
-    "Prayer time notifications with Azan alerts",
-    "Qibla direction compass",
-    "Islamic radio and live Quran channels",
-    "Daily Azkar and Duas",
-    "Prayer and Wudu guidance"
-  ],
-  "technologies_used": [
-    "Flutter",
-    "Dart",
-    "Cubit (State Management)",
-    "Clean Architecture",
-    "Hive (Local Storage)",
-    "REST API",
-    "Audio Player",
-    "Animations"
-  ],
-  "links": [
-    "https://apps.apple.com/us/app/islami-hub/id6756878998"
-  ],
-  "media": []
-},
-{
-  "name": "CRM GTS",
-  "cover_image": "assets/covers/crm.png",
-  "short_description": "A customer support mobile application that allows users to submit, track, and manage support tickets in real time.",
-  "description": "CRM GTS is a customer support mobile application developed for GTS product users to submit, manage, and track support tickets efficiently. The app integrates Firebase Cloud Messaging for real-time push notifications and supports RESTful and GraphQL APIs for seamless communication with backend services. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture. Published on the Apple App Store. Project developed between Apr 2025 and Aug 2025.",
-  "features": [
-    "Support ticket submission and tracking system",
-    "Real-time push notifications via Firebase Cloud Messaging",
-    "Integration with RESTful APIs and GraphQL services",
-    "Scalable MVVM architecture",
-    "Efficient state management using Cubit/BLoC"
-  ],
-  "technologies_used": [
-    "Flutter",
-    "Dart",
-    "Firebase Cloud Messaging",
-    "REST API",
-    "GraphQL",
-    "Cubit / BLoC",
-    "MVVM Architecture"
-  ],
-  "links": [
-    "https://apps.apple.com/us/app/crm-gts/id6755529911"
-  ],
-  "media": []
-},
-{
-  "name": "The Kitchen (Restaurant POS)",
-  "cover_image": "assets/covers/the_kitchen.png",
-  "short_description": "A tablet-based restaurant POS system integrated with ERP and CRM to manage dine-in, takeaway, and delivery operations.",
-  "description": "The Kitchen is a tablet-based restaurant POS system integrated with ERP and CRM systems to manage all restaurant operations including dine-in, takeaway, and delivery orders. The system supports invoice creation with thermal printing, table switching, order transfers, daily opening/closing operations, reporting, collections, and refunds. Built using Flutter with Cubit state management following MVVM architecture and integrated with backend ERP services. The application has been submitted for Apple App Store deployment and is currently pending release. Project developed between Nov 2025 and Mar 2026.",
-  "features": [
-    "Full restaurant POS system for dine-in, takeaway, and delivery",
-    "Invoice creation with thermal printing support",
-    "Table switching and order transfer management",
-    "Daily open/close operations with financial reports",
-    "Collection and refund management",
-    "ERP and CRM integration"
-  ],
-  "technologies_used": [
-    "Flutter",
-    "Dart",
-    "Cubit (State Management)",
-    "MVVM Architecture",
-    "REST API",
-    "Thermal Printing",
-    "ERP Integration",
-    "Animations"
-  ],
-  "links": [],
-  "media": []
-},
+  "projects": [
+    {
+      "name": "The Kitchen (Restaurant POS)",
+      "cover_image": "assets/covers/the_kitchen.png",
+      "short_description": "A tablet and mobile-based restaurant POS system integrated with ERP and CRM to manage dine-in, takeaway, and delivery orders.",
+      "description": "A restaurant POS system designed for tablets and mobile devices and integrated with ERP and CRM systems to streamline restaurant operations. The application manages dine-in, takeaway, and delivery orders while supporting key POS features such as invoice generation with thermal printing, order transfers, table switching, daily opening and closing sessions, reporting, collections, and refunds.",
+      "features": [
+        "Full restaurant POS system for dine-in, takeaway, and delivery",
+        "Invoice creation with thermal printing support",
+        "Table switching and order transfer management",
+        "Daily open/close operations with financial reports",
+        "Collection and refund management",
+        "ERP and CRM integration"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit (State Management)",
+        "Clean Architecture",
+        "REST API",
+        "Thermal Printing",
+        "ERP Integration",
+        "Animations"
+      ],
+      "links": [
+        {
+          "url": "https://apps.apple.com/us/app/the-kitchen/id6759858829",
+          "type": "App Store"
+        }
+        ],
+      "media": []
+    },
+    {
+      "name": "Islami Hub",
+      "cover_image": "assets/covers/islami_cover.jpeg",
+      "short_description": "A complete offline Islamic app featuring Quran, Tafseer, prayer times, Qibla compass, Azkar, Islamic radio, and audio reciters.",
+      "description": "Islami Hub is a fully offline Islamic mobile application developed using Flutter and Hive for local storage. The app provides a comprehensive spiritual experience including a complete Quran with Tafseer, multiple reciters for audio playback, accurate prayer time notifications, a Qibla compass for direction, Islamic radio channels, and daily Azkar and Duas. The project follows Clean Architecture principles and uses Cubit for state management to maintain scalability and performance. Published on the Apple App Store. Project developed between Oct 2025 and Nov 2025.",
+      "features": [
+        "Offline-first architecture using Hive local storage",
+        "Complete Quran with Tafseer and multiple reciters",
+        "Prayer time notifications with Azan alerts",
+        "Qibla direction compass",
+        "Islamic radio and live Quran channels",
+        "Daily Azkar and Duas",
+        "Prayer and Wudu guidance"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit (State Management)",
+        "Clean Architecture",
+        "Hive (Local Storage)",
+        "REST API",
+        "Audio Player",
+        "Animations"
+      ],
+      "links": [
+        {
+          "url": "https://apps.apple.com/us/app/islami-hub/id6756878998",
+          "type": "App Store"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "CRM GTS",
+      "cover_image": "assets/covers/crm.png",
+      "short_description": "A customer support mobile application that allows users to submit, track, and manage support tickets in real time.",
+      "description": "CRM GTS is a customer support mobile application developed for GTS product users to submit, manage, and track support tickets efficiently. The app integrates Firebase Cloud Messaging for real-time push notifications and supports RESTful and GraphQL APIs for seamless communication with backend services. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture. Published on the Apple App Store. Project developed between Apr 2025 and Aug 2025.",
+      "features": [
+        "Support ticket submission and tracking system",
+        "Real-time push notifications via Firebase Cloud Messaging",
+        "Integration with RESTful APIs and GraphQL services",
+        "Scalable MVVM architecture",
+        "Efficient state management using Cubit/BLoC"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Firebase Cloud Messaging",
+        "REST API",
+        "GraphQL",
+        "Cubit / BLoC",
+        "MVVM Architecture"
+      ],
+      "links": [
+        {
+          "url": "https://apps.apple.com/us/app/crm-gts/id6755529911",
+          "type": "App Store"
+        }
+       ],
+      "media": []
+    },
+
     {
       "name": "Dalil",
       "cover_image": "assets/covers/dalil_mockup.png",
@@ -246,7 +259,7 @@
       "links": [],
       "media": []
     },
-  
+
     {
       "name": "GTS E-Commerce (ERP Integrated)",
       "cover_image": "assets/covers/ecommerce_cover.png",
@@ -299,7 +312,7 @@
       "links": [],
       "media": []
     },
-  
+
     {
       "name": "Ghosn App (AI Plant Assistant & Store)",
       "cover_image": "assets/covers/Ghosn.png",

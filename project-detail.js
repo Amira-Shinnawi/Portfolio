@@ -95,6 +95,9 @@ function populateProjectData(project) {
 
   // Generate project links
   const linksContainer = document.getElementById("projectLinks");
+  debugger
+  const projectCoverOverlay = document.getElementById("project-cover-overlay");
+  projectCoverOverlay.href = project.links[0].url;
   linksContainer.innerHTML = "";
   if (project.links && project.links.length > 0) {
     project.links.forEach((link, index) => {
