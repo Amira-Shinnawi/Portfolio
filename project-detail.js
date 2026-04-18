@@ -95,11 +95,14 @@ function populateProjectData(project) {
 
   // Generate project links
   const linksContainer = document.getElementById("projectLinks");
-  debugger
   const projectCoverOverlay = document.getElementById("project-cover-overlay");
-  projectCoverOverlay.href = project.links[0].url;
+  
   linksContainer.innerHTML = "";
   if (project.links && project.links.length > 0) {
+    // Set the cover overlay link to the first link if available
+    projectCoverOverlay.href = project.links[0].url;
+    projectCoverOverlay.style.display = "flex";
+    
     project.links.forEach((link, index) => {
       const isPrimary = index === 0 ? "primary" : "";
       const linkEl = document.createElement("a");
@@ -113,6 +116,17 @@ function populateProjectData(project) {
       `;
       linksContainer.appendChild(linkEl);
     });
+  } else {
+    // Hide the cover overlay if no links available
+    projectCoverOverlay.style.display = "none";
+    
+    // Display a message indicating no external links
+    const noLinksMsg = document.createElement("p");
+    noLinksMsg.className = "no-links-message";
+    noLinksMsg.style.color = "var(--text-muted)";
+    noLinksMsg.style.fontSize = "0.9rem";
+    noLinksMsg.textContent = "External links not available for this project";
+    linksContainer.appendChild(noLinksMsg);
   }
 
   // Generate features
