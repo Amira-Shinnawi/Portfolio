@@ -137,6 +137,9 @@
         {
           "url": "https://apps.apple.com/us/app/the-kitchen/id6759858829",
           "type": "App Store"
+        },{
+          "url": "https://play.google.com/store/apps/details?id=com.thekitchen.pos&pcampaignid=web_share",
+          "type": "Play Store"
         }
         ],
       "media": []

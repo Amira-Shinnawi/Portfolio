@@ -125,7 +125,7 @@ function populateProjectData(project) {
     noLinksMsg.className = "no-links-message";
     noLinksMsg.style.color = "var(--text-muted)";
     noLinksMsg.style.fontSize = "0.9rem";
-    noLinksMsg.textContent = "External links not available for this project";
+    noLinksMsg.textContent = "";
     linksContainer.appendChild(noLinksMsg);
   }
 
