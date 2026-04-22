@@ -60,7 +60,7 @@ document.addEventListener("click", (e) => {
 // Back to top
 const backToTop = document.getElementById("backToTop");
 backToTop?.addEventListener("click", () =>
-  window.scrollTo({ top: 0, behavior: "smooth" })
+  window.scrollTo({ top: 0, behavior: "smooth" }),
 );
 
 document.getElementById("year").textContent = new Date().getFullYear();
@@ -81,19 +81,17 @@ function el(html) {
 }
 
 function sanitize(str) {
-  return (str || "")
-    .toString()
-    .replace(
-      /[&<>"']/g,
-      (s) =>
-        ({
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          '"': "&quot;",
-          "'": "&#39;",
-        }[s])
-    );
+  return (str || "").toString().replace(
+    /[&<>"']/g,
+    (s) =>
+      ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[s],
+  );
 }
 
 // ===== CREATIVE FEATURES =====
@@ -190,10 +188,10 @@ updateCursor();
 
 // Cursor interactions
 document.addEventListener("mousedown", () =>
-  cursorFollower?.classList.add("active")
+  cursorFollower?.classList.add("active"),
 );
 document.addEventListener("mouseup", () =>
-  cursorFollower?.classList.remove("active")
+  cursorFollower?.classList.remove("active"),
 );
 
 // 3. Typing Animation
@@ -331,7 +329,7 @@ document.addEventListener("keydown", (e) => {
         const outputEl = el(
           `<div class="terminal-output">${
             typeof output === "function" ? output() : output
-          }</div>`
+          }</div>`,
         );
         inputLine.parentNode.insertBefore(outputEl, inputLine);
 
@@ -375,7 +373,7 @@ async function loadDataWithEffects() {
     updateProgress(30, "Fetching data...");
 
     // Fetch data from JSON
-    const res = await fetch("/data.json");
+    const res = await fetch("./data.json");
     const data = await res.json();
 
     updateProgress(60, "Processing content...");
@@ -440,7 +438,7 @@ async function loadDataWithData(data) {
 
   const phoneHref = `tel:${data.personal_info.contact.phone.replace(
     /\s+/g,
-    ""
+    "",
   )}`;
   const emailHref = `mailto:${data.personal_info.contact.email}`;
   const phoneA = document.getElementById("phone");
@@ -454,7 +452,7 @@ async function loadDataWithData(data) {
   const whatsappCTA = document.getElementById("whatsappCTA");
   const whatsappHref = `https://wa.me/${data.personal_info.contact.phone.replace(
     /[^0-9]/g,
-    ""
+    "",
   )}`;
   emailCTA.href = emailHref;
   whatsappCTA.href = whatsappHref;
@@ -464,7 +462,7 @@ async function loadDataWithData(data) {
 
   // LinkedIn link in contact section
   const linkedinLink = data.personal_info.social_links.find(
-    (link) => link.platform === "LinkedIn"
+    (link) => link.platform === "LinkedIn",
   );
   const linkedinA = document.getElementById("linkedin");
 
@@ -477,7 +475,7 @@ async function loadDataWithData(data) {
   const socialWrap = document.getElementById("socialLinks");
   data.personal_info.social_links.forEach((s) => {
     const item = el(`<a href="${sanitize(
-      s.url
+      s.url,
     )}" target="_blank" rel="noopener">
       <i class="ti ti-brand-${sanitize(s.platform).toLowerCase()}"></i>
       <span>${sanitize(s.platform)}</span></a>`);
@@ -496,8 +494,8 @@ async function loadDataWithData(data) {
         <div class="timeline-card">
           <h4>${sanitize(exp.title)}</h4>
           <div class="meta">${sanitize(exp.company)} • ${sanitize(
-      exp.location
-    )} • ${sanitize(exp.date_range)}</div>
+            exp.location,
+          )} • ${sanitize(exp.date_range)}</div>
           ${
             Array.isArray(exp.description_points)
               ? `<ul>${exp.description_points
@@ -517,8 +515,8 @@ async function loadDataWithData(data) {
       <div class="edu-card">
         <h4>${sanitize(ed.degree)}</h4>
         <div class="meta">${sanitize(ed.institution)} • ${sanitize(
-      ed.date_range
-    )}</div>
+          ed.date_range,
+        )}</div>
       </div>`);
     eduList.appendChild(card);
   });
@@ -532,8 +530,8 @@ async function loadDataWithData(data) {
       }" style="cursor: pointer;">
         <div class="project__cover">
           <img src="${sanitize(p.cover_image)}" alt="${sanitize(
-      p.name
-    )} cover" loading="lazy" />
+            p.name,
+          )} cover" loading="lazy" />
         </div>
         <div class="project__body">
           <h3 class="project__title">${sanitize(p.name)}</h3>
@@ -542,10 +540,10 @@ async function loadDataWithData(data) {
             .map(
               (l) =>
                 `<a class="link" href="${sanitize(
-                  l.url
+                  l.url,
                 )}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><i class="ti ti-external-link"></i><span>${sanitize(
-                  l.type
-                )}</span></a>`
+                  l.type,
+                )}</span></a>`,
             )
             .join("")}</div>
         </div>
@@ -560,7 +558,7 @@ async function loadDataWithData(data) {
         .replace(/-+/g, "-") // Replace multiple hyphens with single
         .trim();
       window.location.href = `project-details.html?project=${encodeURIComponent(
-        projectName
+        projectName,
       )}`;
     });
     grid.appendChild(card);
@@ -682,7 +680,7 @@ function categorizeSkills(skills) {
       if (
         !categorized &&
         category.keywords.some((keyword) =>
-          skill.toLowerCase().includes(keyword.toLowerCase())
+          skill.toLowerCase().includes(keyword.toLowerCase()),
         )
       ) {
         category.skills.push(skill);
