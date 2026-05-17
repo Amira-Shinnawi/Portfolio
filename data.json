@@ -137,13 +137,52 @@
         {
           "url": "https://apps.apple.com/us/app/the-kitchen/id6759858829",
           "type": "App Store"
-        },{
+        },
+        {
           "url": "https://play.google.com/store/apps/details?id=com.thekitchen.pos&pcampaignid=web_share",
           "type": "Play Store"
         }
-        ],
+      ],
       "media": []
     },
+    {
+      "name": "Brace Up",
+      "cover_image": "assets/covers/braceup_cover.jpg",
+      "short_description": "An offline-first study companion app for orthodontic exams, featuring comprehensive resources, clinical images, and practice questions.",
+      "description": "Brace Up is your ultimate study companion for orthodontic exams, whether you’re preparing for the British fellowship (FOrth) or your Master’s degree. Explore comprehensive, evidence-based resources, clinical images, and practice questions designed to help you learn, understand, and apply every concept effectively, with a strong focus on offline-first functionality.",
+      "features": [
+        "Offline-first architecture for studying without an internet connection",
+        "Comprehensive, evidence-based orthodontic study resources",
+        "Clinical image gallery and interactive practice questions",
+        "Encrypted local database for secure offline storage",
+        "In-app PDF document viewing capabilities",
+        "Interactive flip cards for active recall and memorization",
+        "Anti-screenshot protection for content security",
+        "Multi-language support and localization"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "BLoC/Cubit (State Management)",
+        "Clean Architecture",
+        "Supabase",
+        "Sqflite (SQLCipher)",
+        "GoRouter (Navigation)",
+        "GetIt (Dependency Injection)"
+      ],
+      "links": [
+        {
+          "url": "https://apps.apple.com/us/app/brace-up/id6754993784",
+          "type": "App Store"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.ortho.app",
+          "type": "Play Store"
+        }
+      ],
+      "media": []
+    },
+
     {
       "name": "Islami Hub",
       "cover_image": "assets/covers/islami_cover.jpeg",
@@ -202,7 +241,7 @@
           "url": "https://apps.apple.com/us/app/crm-gts/id6755529911",
           "type": "App Store"
         }
-       ],
+      ],
       "media": []
     },
 
