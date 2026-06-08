@@ -244,7 +244,40 @@
       ],
       "media": []
     },
-
+    {
+      "name": "Spider",
+      "cover_image": "assets/covers/spider.png",
+      "short_description": "A comprehensive Business Management and POS application for real-time tracking of sales, inventory, and accounts.",
+      "description": "Spider is a comprehensive, real-time Business Management and Point-of-Sale (POS) mobile application developed for complete, moment-by-moment control over all aspects of a business, including sales, inventory, accounts, and reports. It streamlines business operations for faster management with enhanced intelligence, enabling user-friendly point-of-sale functionality, accurate inventory tracking, financial reporting, and efficient payment collections. Key technical features include the integration of a custom ERP calculator via a remote repository, real-time push notifications via Firebase Cloud Messaging, and seamless communication with RESTful and GraphQL APIs for backend data synchronization. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture, the application offers a simple and intuitive user experience. The project was developed between Apr 2025 and Aug 2025 and is published on the Apple App Store.",
+      "features": [
+        "Complete real-time business management and POS system",
+        "Real-time tracking of sales, inventory, accounts, and detailed reports from a single interface",
+        "Point-of-Sale (POS) capabilities for quick and efficient sales operations",
+        "Custom integrated ERP calculator module",
+        "Real-time push notifications via Firebase Cloud Messaging",
+        "Barcode and QR code scanning for product and sales management",
+        "Receipt and image printing via POS printer integration",
+        "Support for RESTful and GraphQL API integration",
+        "User-friendly, intuitive interface for fast task completion",
+        "Multi-lingual support with simple localization",
+        "Robust state management using Cubit/BLoC",
+        "Scalable MVVM architecture for business growth"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Firebase Cloud Messaging",
+        "REST API",
+        "Cubit / BLoC",
+        "MVVM Architecture",
+        "Go Router",
+        "Hive (local storage)",
+        "Mobile Scanner",
+        "POS Printer Platform"
+      ],
+      "links": [],
+      "media": []
+    },
     {
       "name": "Dalil",
       "cover_image": "assets/covers/dalil_mockup.png",
