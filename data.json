@@ -19,10 +19,10 @@
       }
     ],
     "cv_download": "assets/downloads/Amira_Shinnawi_CV.pdf",
-    "about_me": "Mobile App Developer with 2+ years of experience in cross-platform development using Flutter. Experienced in building scalable, high-performance mobile applications with clean architecture and modern state management. Also working as a freelance Flutter Instructor, mentoring developers and delivering practical training. Passionate about continuous learning and building impactful products."
+    "about_me": "Flutter Developer specializing in production-grade mobile ERP-integrated applications. Built 8+ apps across POS, e-commerce, and educational domains using Clean Architecture and modern state management. HackerRank certified. Teaching Flutter to developers while building scalable solutions for businesses in Egypt. Passionate about crafting efficient, user-friendly apps that drive business growth and enhance user experiences."
   },
 
-  "projects_num": "6",
+  "projects_num": "10",
   "experience_num": "2",
   "customers_num": "0",
 
@@ -45,12 +45,12 @@
     ],
     "technical_skills": [
       "Languages: Dart, Java, C#, HTML, CSS",
-      "Concepts: OOP, Clean Code, SOLID Principal, Design Patterns",
+      "Concepts: OOP, Clean Code, SOLID Principles, Design Patterns",
       "Frameworks and Libraries: Flutter",
-      "Databases: Firebase, Xampp, Hive and SQLite",
+      "Databases: Firebase, MySQL, Hive, SQLite",
       "APIs: RESTful APIs, GraphQL",
       "Tools: GitHub, Git, Firebase, Postman, Figma",
-      "Architectural Patterns:: Clean Architecture, Bloc Pattern, MVVM, MVC",
+      "Architectural Patterns: Clean Architecture, BLoC Pattern, MVVM, MVC",
       "Responsive UI and Custom Widgets",
       "Testing and Debugging"
     ]
@@ -58,19 +58,29 @@
   "education": [
     {
       "degree": "Bachelor of Computers and Information Sciences",
-      "institution": " Kafr El-Shaykh University",
+      "institution": "Kafr El-Shaykh University",
       "date_range": "2020 - 2024"
     }
   ],
 
   "experience": [
     {
+      "title": "Flutter Developer",
+      "company": "Sporton",
+      "location": "Cairo, Egypt",
+      "date_range": "May 2026 - Present",
+      "description_points": [
+        "Collaborated within a development team to build a comprehensive sports application using Flutter, developing scalable and responsive UI components",
+        "Utilized Clean Architecture and BLoC/Cubit to establish a robust project foundation, supporting upcoming features such as match tracking, user e-portfolios, and monitoring dashboards"
+      ]
+    },
+    {
       "title": "Mobile App Developer",
       "company": "GTS (Global Technology Solutions)",
       "location": "Mansoura, Egypt",
-      "date_range": "Nov 2024 - Present",
+      "date_range": "Nov 2024 - Jun 2026",
       "description_points": [
-        "Developed and maintained 6+ cross-platform mobile applications using Flutter.",
+        "Developed and maintained 8+ cross-platform mobile applications using Flutter.",
         "Collaborated with UI/UX designers and backend teams for API integration.",
         "Prepared and deployed applications to Google Play and Apple App Store."
       ]
@@ -115,6 +125,7 @@
       "cover_image": "assets/covers/the_kitchen.png",
       "short_description": "A tablet and mobile-based restaurant POS system integrated with ERP and CRM to manage dine-in, takeaway, and delivery orders.",
       "description": "A restaurant POS system designed for tablets and mobile devices and integrated with ERP and CRM systems to streamline restaurant operations. The application manages dine-in, takeaway, and delivery orders while supporting key POS features such as invoice generation with thermal printing, order transfers, table switching, daily opening and closing sessions, reporting, collections, and refunds.",
+      "date_range": "Nov 2025 - Mar 2026",
       "features": [
         "Full restaurant POS system for dine-in, takeaway, and delivery",
         "Invoice creation with thermal printing support",
@@ -149,7 +160,8 @@
       "name": "Brace Up",
       "cover_image": "assets/covers/braceup_cover.jpg",
       "short_description": "An offline-first study companion app for orthodontic exams, featuring comprehensive resources, clinical images, and practice questions.",
-      "description": "Brace Up is your ultimate study companion for orthodontic exams, whether you’re preparing for the British fellowship (FOrth) or your Master’s degree. Explore comprehensive, evidence-based resources, clinical images, and practice questions designed to help you learn, understand, and apply every concept effectively, with a strong focus on offline-first functionality.",
+      "description": "Brace Up is your ultimate study companion for orthodontic exams, whether you're preparing for the British fellowship (FOrth) or your Master's degree. Explore comprehensive, evidence-based resources, clinical images, and practice questions designed to help you learn, understand, and apply every concept effectively, with a strong focus on offline-first functionality.",
+      "date_range": "Mar 2026 - Present",
       "features": [
         "Offline-first architecture for studying without an internet connection",
         "Comprehensive, evidence-based orthodontic study resources",
@@ -166,7 +178,7 @@
         "BLoC/Cubit (State Management)",
         "Clean Architecture",
         "Supabase",
-        "Sqflite (SQLCipher)",
+        "SQLCipher (Sqflite)",
         "GoRouter (Navigation)",
         "GetIt (Dependency Injection)"
       ],
@@ -187,7 +199,8 @@
       "name": "Islami Hub",
       "cover_image": "assets/covers/islami_cover.jpeg",
       "short_description": "A complete offline Islamic app featuring Quran, Tafseer, prayer times, Qibla compass, Azkar, Islamic radio, and audio reciters.",
-      "description": "Islami Hub is a fully offline Islamic mobile application developed using Flutter and Hive for local storage. The app provides a comprehensive spiritual experience including a complete Quran with Tafseer, multiple reciters for audio playback, accurate prayer time notifications, a Qibla compass for direction, Islamic radio channels, and daily Azkar and Duas. The project follows Clean Architecture principles and uses Cubit for state management to maintain scalability and performance. Published on the Apple App Store. Project developed between Oct 2025 and Nov 2025.",
+      "description": "Islami Hub is a fully offline Islamic mobile application developed using Flutter and Hive for local storage. The app provides a comprehensive spiritual experience including a complete Quran with Tafseer, multiple reciters for audio playback, accurate prayer time notifications, a Qibla compass for direction, Islamic radio channels, and daily Azkar and Duas. The project follows Clean Architecture principles and uses Cubit for state management to maintain scalability and performance. Published on the Apple App Store.",
+      "date_range": "Oct 2025 - Nov 2025",
       "features": [
         "Offline-first architecture using Hive local storage",
         "Complete Quran with Tafseer and multiple reciters",
@@ -219,7 +232,8 @@
       "name": "CRM GTS",
       "cover_image": "assets/covers/crm.png",
       "short_description": "A customer support mobile application that allows users to submit, track, and manage support tickets in real time.",
-      "description": "CRM GTS is a customer support mobile application developed for GTS product users to submit, manage, and track support tickets efficiently. The app integrates Firebase Cloud Messaging for real-time push notifications and supports RESTful and GraphQL APIs for seamless communication with backend services. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture. Published on the Apple App Store. Project developed between Apr 2025 and Aug 2025.",
+      "description": "CRM GTS is a customer support mobile application developed for GTS product users to submit, manage, and track support tickets efficiently. The app integrates Firebase Cloud Messaging for real-time push notifications and supports RESTful and GraphQL APIs for seamless communication with backend services. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture. Published on the Apple App Store.",
+      "date_range": "Apr 2025 - Aug 2025",
       "features": [
         "Support ticket submission and tracking system",
         "Real-time push notifications via Firebase Cloud Messaging",
@@ -248,7 +262,8 @@
       "name": "Spider",
       "cover_image": "assets/covers/spider.png",
       "short_description": "A comprehensive Business Management and POS application for real-time tracking of sales, inventory, and accounts.",
-      "description": "Spider is a comprehensive, real-time Business Management and Point-of-Sale (POS) mobile application developed for complete, moment-by-moment control over all aspects of a business, including sales, inventory, accounts, and reports. It streamlines business operations for faster management with enhanced intelligence, enabling user-friendly point-of-sale functionality, accurate inventory tracking, financial reporting, and efficient payment collections. Key technical features include the integration of a custom ERP calculator via a remote repository, real-time push notifications via Firebase Cloud Messaging, and seamless communication with RESTful and GraphQL APIs for backend data synchronization. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture, the application offers a simple and intuitive user experience. The project was developed between Apr 2025 and Aug 2025 and is published on the Apple App Store.",
+      "description": "Spider is a comprehensive, real-time Business Management and Point-of-Sale (POS) mobile application developed for complete, moment-by-moment control over all aspects of a business, including sales, inventory, accounts, and reports. It streamlines business operations for faster management with enhanced intelligence, enabling user-friendly point-of-sale functionality, accurate inventory tracking, financial reporting, and efficient payment collections. Key technical features include the integration of a custom ERP calculator via a remote repository, real-time push notifications via Firebase Cloud Messaging, and seamless communication with RESTful and GraphQL APIs for backend data synchronization. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture, the application offers a simple and intuitive user experience.",
+      "date_range": "Mar 2026 - Jun 2026",
       "features": [
         "Complete real-time business management and POS system",
         "Real-time tracking of sales, inventory, accounts, and detailed reports from a single interface",
@@ -270,8 +285,8 @@
         "REST API",
         "Cubit / BLoC",
         "MVVM Architecture",
-        "Go Router",
-        "Hive (local storage)",
+        "GoRouter",
+        "Hive (Local Storage)",
         "Mobile Scanner",
         "POS Printer Platform"
       ],
@@ -282,7 +297,8 @@
       "name": "Dalil",
       "cover_image": "assets/covers/dalil_mockup.png",
       "short_description": "A comprehensive guide app offering technical services, real-time chat support, and secure in-app payments.",
-      "description": "Developed a comprehensive guide app offering various technical services, including identity/profile design, and website and application creation. The app features robust real-time communication by integrating Agora for chat and calls, and ensures secure transactions via Moyaser for in-app payments. The application was built using Flutter, Dart, and the Bloc/Cubit architecture, following the MVVM pattern for a scalable, smooth, and maintainable codebase. Project developed between Nov 2024 and Jan 2024.",
+      "description": "Developed a comprehensive guide app offering various technical services, including identity/profile design, and website and application creation. The app features robust real-time communication by integrating Agora for chat and calls, and ensures secure transactions via Moyaser for in-app payments. The application was built using Flutter, Dart, and the Bloc/Cubit architecture, following the MVVM pattern for a scalable, smooth, and maintainable codebase.",
+      "date_range": "Nov 2024 - Jan 2025",
       "features": [
         "Comprehensive catalog of technical services (design, web/app creation)",
         "Real-time chat and calls via Agora for technical support",
@@ -300,8 +316,8 @@
         "Firebase Cloud Messaging",
         "REST API / Dio",
         "Localization",
-        "Audio & Media Handlers (e.g., Audio Players, Flutter Sound)",
-        "UI/Utility Libraries (e.g., Shimmer, Lottie, ScreenUtil)"
+        "Audio & Media Handlers",
+        "UI/Utility Libraries (Shimmer, Lottie, ScreenUtil)"
       ],
       "links": [],
       "media": []
@@ -310,7 +326,8 @@
       "name": "GTS System",
       "cover_image": "assets/covers/erp_cover.png",
       "short_description": "An ERP application for sales representatives integrated with accounting and business workflows, featuring thermal printing capabilities.",
-      "description": "An Enterprise Resource Planning (ERP) system developed for sales representatives to manage core accounting and business workflows. Key functionalities included end-to-end invoice creation, receipt generation, and direct printing via thermal printers. The system also managed stock transfer requests, customer data, and facilitated comprehensive report generation and sharing, all supported by real-time notifications for seamless workflow integration. Built with **Flutter**, **Dart**, and the **Bloc/Cubit** architecture for high scalability and efficient performance. Project developed between Jan 2025 and Mar 2025.",
+      "description": "An Enterprise Resource Planning (ERP) system developed for sales representatives to manage core accounting and business workflows. Key functionalities included end-to-end invoice creation, receipt generation, and direct printing via thermal printers. The system also managed stock transfer requests, customer data, and facilitated comprehensive report generation and sharing, all supported by real-time notifications for seamless workflow integration. Built with Flutter, Dart, and the Bloc/Cubit architecture for high scalability and efficient performance.",
+      "date_range": "Jan 2025 - Mar 2025",
       "features": [
         "Full ERP support for sales and accounting workflows",
         "Invoice and receipt voucher creation with thermal printer support (ESC/POS)",
@@ -336,16 +353,17 @@
     },
 
     {
-      "name": "GTS E-Commerce (ERP Integrated)",
+      "name": "GTS E-Commerce",
       "cover_image": "assets/covers/ecommerce_cover.png",
       "short_description": "An ERP-integrated e-commerce platform for product browsing, secure order placement, purchase management, and online payment processing.",
-      "description": "Developed a full-featured e-commerce application integrated with an Enterprise Resource Planning (ERP) system to manage the entire sales lifecycle. Features include detailed product browsing, secure order placement, purchase history management, and integrated notifications. Crucially, the system incorporated a secure payment gateway for seamless online transactions and utilized **SignalR** for real-time updates and notification synchronization. Built with **Flutter**, **Dart**, and the **Bloc/Cubit** architecture following the **MVVM** pattern, ensuring high stability and efficient ERP integration. Project developed between Jul 2025 and Sep 2025.",
+      "description": "Developed a full-featured e-commerce application integrated with an Enterprise Resource Planning (ERP) system to manage the entire sales lifecycle. Features include detailed product browsing, secure order placement, purchase history management, and integrated notifications. Crucially, the system incorporated a secure payment gateway for seamless online transactions and utilized SignalR for real-time updates and notification synchronization. Built with Flutter, Dart, and the Bloc/Cubit architecture following the MVVM pattern, ensuring high stability and efficient ERP integration.",
+      "date_range": "Jul 2025 - Oct 2025",
       "features": [
-        "Full-featured product catalog and browsing experience.",
-        "Secure shopping cart and order placement integrated with ERP.",
-        "Integrated secure payment gateway for online transactions (Pay Integration).",
-        "Real-time order status and notification system (SignalR/Firebase Messaging).",
-        "Comprehensive purchase history and management features."
+        "Full-featured product catalog and browsing experience",
+        "Secure shopping cart and order placement integrated with ERP",
+        "Integrated secure payment gateway for online transactions",
+        "Real-time order status and notification system (SignalR/Firebase Messaging)",
+        "Comprehensive purchase history and management features"
       ],
       "technologies_used": [
         "Flutter",
@@ -354,9 +372,9 @@
         "MVVM (Architecture)",
         "REST API / Dio",
         "SignalR (Real-time Communication)",
-        "Payment Gateway Integration (Flutter Credit Card UI)",
+        "Payment Gateway Integration",
         "Firebase Cloud Messaging & Local Notifications",
-        "UI/Utility Libraries (e.g., Lottie, Shimmer, Animation, Staggered Grid View)"
+        "UI/Utility Libraries (Lottie, Shimmer, Animation, Staggered Grid View)"
       ],
       "links": [],
       "media": []
@@ -365,13 +383,14 @@
       "name": "GTS Delivery",
       "cover_image": "assets/covers/delivery_cover.png",
       "short_description": "A real-time delivery management application integrated with the E-commerce system for order assignment, tracking, and payment collection.",
-      "description": "Developed a dedicated mobile application for delivery personnel, seamlessly connected to the e-commerce system to handle real-time logistics and order assignments. The app utilized **SignalR** for instant order updates and notifications, allowing delivery staff to accept or reject orders in real-time. Key features included secure payment collection, comprehensive order tracking, and advanced localization support, ensuring smooth, coordinated workflow between the e-commerce platform, customers, and the delivery team. Built using **Flutter**, **Dart**, and the **Bloc/Cubit** architecture following the **MVVM** pattern. Project developed between Sep 2025 and Oct 2025.",
+      "description": "Developed a dedicated mobile application for delivery personnel, seamlessly connected to the e-commerce system to handle real-time logistics and order assignments. The app utilized SignalR for instant order updates and notifications, allowing delivery staff to accept or reject orders in real-time. Key features included secure payment collection, comprehensive order tracking, and advanced localization support, ensuring smooth, coordinated workflow between the e-commerce platform, customers, and the delivery team. Built using Flutter, Dart, and the Bloc/Cubit architecture following the MVVM pattern.",
+      "date_range": "Sep 2025 - Oct 2025",
       "features": [
-        "Real-time order assignment and status management.",
-        "SignalR integration for instant notifications (accept/reject functionality).",
-        "Features for tracking and handling payment collections.",
-        "Smooth coordination and communication between systems.",
-        "Multi-language support (Localization)."
+        "Real-time order assignment and status management",
+        "SignalR integration for instant notifications (accept/reject functionality)",
+        "Features for tracking and handling payment collections",
+        "Smooth coordination and communication between systems",
+        "Multi-language support (Localization)"
       ],
       "technologies_used": [
         "Flutter",
@@ -382,24 +401,25 @@
         "SignalR (Real-time Communication)",
         "Localization",
         "Animation (Lottie, Carousel Slider)",
-        "Utility Libraries (e.g., Flutter Secure Storage, Timeago, Connectivity Monitor)"
+        "Utility Libraries (Flutter Secure Storage, Timeago, Connectivity Monitor)"
       ],
       "links": [],
       "media": []
     },
 
     {
-      "name": "Ghosn App (AI Plant Assistant & Store)",
+      "name": "Ghosn App",
       "cover_image": "assets/covers/Ghosn.png",
       "short_description": "A personal plant care assistant and e-commerce platform featuring AI-powered disease diagnosis via image recognition.",
-      "description": "Ghosn acts as a comprehensive personal guide for plant enthusiasts, covering selection, care, and commerce. The application offers a wide variety of plants through an integrated online store and provides expert, tailored care documentation for each user's plants. Its most advanced feature is the **AI Assistant**, which uses machine learning and image recognition to accurately identify plant diseases. The platform also includes a community hub and a reliable **Reminders/Notification** system for watering and pruning routines. The application is built using **Flutter**, Dart, and incorporates **Firebase**, **GraphQL/RESTful APIs**, and the robust **Cubit/Bloc** architecture following the **MVVM** pattern.",
+      "description": "Ghosn acts as a comprehensive personal guide for plant enthusiasts, covering selection, care, and commerce. The application offers a wide variety of plants through an integrated online store and provides expert, tailored care documentation for each user's plants. Its most advanced feature is the AI Assistant, which uses machine learning and image recognition to accurately identify plant diseases. The platform also includes a community hub and a reliable Reminders/Notification system for watering and pruning routines. The application is built using Flutter, Dart, and incorporates Firebase, GraphQL/RESTful APIs, and the robust Cubit/Bloc architecture following the MVVM pattern.",
+      "date_range": "Jan 2026 - Mar 2026",
       "features": [
-        "Personalized Plant Assistant for selection and care.",
-        "Online Plant Store offering a wide variety of flora.",
-        "AI Assistant for plant disease diagnosis (Image Recognition/Machine Learning).",
-        "Community platform for plant enthusiasts.",
-        "Automated reminders and notifications for plant care (Watering/Pruning).",
-        "Full-stack integration using Firebase, GraphQL, and RESTful APIs."
+        "Personalized Plant Assistant for selection and care",
+        "Online Plant Store offering a wide variety of flora",
+        "AI Assistant for plant disease diagnosis (Image Recognition/Machine Learning)",
+        "Community platform for plant enthusiasts",
+        "Automated reminders and notifications for plant care (Watering/Pruning)",
+        "Full-stack integration using Firebase, GraphQL, and RESTful APIs"
       ],
       "technologies_used": [
         "Flutter",
