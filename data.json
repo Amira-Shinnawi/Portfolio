@@ -1,12 +1,12 @@
 {
   "personal_info": {
     "name": "Amira Shinnawi",
-    "title": "Flutter Developer | Mobile App Developer",
+    "title": "Flutter Developer",
     "profile_image": "assets/profile/profile.png",
     "location": "Cairo, Egypt",
     "contact": {
       "phone": "+20 1025167595",
-      "email": "amirashenawy123@gmail.com"
+      "email": "devamirashinnawi@gmail.com"
     },
     "social_links": [
       {
@@ -19,13 +19,11 @@
       }
     ],
     "cv_download": "assets/downloads/Amira_Shinnawi_CV.pdf",
-    "about_me": " Flutter Developer specializing in production-grade mobile ERP-integrated applications. Built 8+ apps across POS, e-commerce, and educational domains using Clean Architecture and modern state management. HackerRank certified. Teaching Flutter to developers while building scalable, impactful solutions."
+    "about_me": "Flutter Developer with 3 years of professional experience building and delivering cross-platform mobile applications for business, e-commerce, education, and customer-facing products. Experienced in ERP-integrated POS and business applications, offline-first solutions, real-time features, payment integrations, and hardware-connected mobile experiences. Independently delivered a freelance product from development to App Store and Google Play release, while contributing to team-based products in a professional software environment."
   },
-
   "projects_num": "10",
-  "experience_num": "2",
+  "experience_num": "3+",
   "customers_num": "0",
-
   "skills": {
     "soft_skills": [
       "Collaborative",
@@ -44,45 +42,56 @@
       "Work Under Pressure"
     ],
     "technical_skills": [
-      "Languages: Dart, Java, C#, HTML, CSS",
-      "Concepts: OOP, Clean Code, SOLID Principles, Design Patterns",
-      "Frameworks and Libraries: Flutter",
-      "Databases: Firebase, MySQL, Hive, SQLite",
-      "APIs: RESTful APIs, GraphQL",
-      "Tools: GitHub, Git, Firebase, Postman, Figma",
-      "Architectural Patterns: Clean Architecture, BLoC Pattern, MVVM, MVC",
-      "Responsive UI and Custom Widgets",
-      "Testing and Debugging"
+      "Mobile Development: Flutter, Dart, Android, iOS, Flutter Web, Cross-platform Development, Responsive UI, Animations, Localization",
+      "Architecture & State Management: Clean Architecture, BLoC/Cubit, MVVM, MVC, SOLID Principles, Design Patterns, Dependency Injection",
+      "Networking & Real-Time: REST APIs, GraphQL, SignalR, Agora Chat and Calls, Firebase Cloud Messaging",
+      "Data & Backend Services: Firebase, Supabase, SQLite, Hive, Offline-first Design, Data Synchronization",
+      "Business Systems & Hardware: ERP Integration, POS Systems, Payment Gateway Integration, Thermal Printing, Barcode Scanning, QR Scanning, Reusable Package Development",
+      "Testing, CI/CD & Release: Flutter Testing, Calculation Validation, Codemagic CI/CD, Google Play Console, App Store Connect",
+      "Tools & Practices: Git, GitHub, Jira, Agile, Code Reviews, Postman, Figma"
     ]
   },
   "education": [
     {
-      "degree": "Bachelor of Computers and Information Sciences",
+      "degree": "Bachelor of Computers and Information Sciences — Information Science Department",
       "institution": "Kafr El-Shaykh University",
-      "date_range": "2020 - 2024"
+      "date_range": "Oct 2020 - Jun 2024",
+      "grade": "Very Good with Honors (81.36%)",
+      "graduation_project": "Ghosn — Personal Plant Assistant App featuring AI-based disease diagnosis, an online plant store, plant care guidance, reminders, and a community for plant enthusiasts."
     }
   ],
-
   "experience": [
     {
       "title": "Flutter Developer",
-      "company": "Sporton",
-      "location": "Cairo, Egypt",
+      "company": "Sporton — Sports Platform",
+      "location": "Remote",
       "date_range": "May 2026 - Present",
       "description_points": [
-        "Collaborated within a development team to build a comprehensive sports application using Flutter, developing scalable and responsive UI components",
-        "Utilized Clean Architecture and BLoC/Cubit to establish a robust project foundation, supporting upcoming features such as match tracking, user e-portfolios, and monitoring dashboards"
+        "Developing a sports platform featuring athlete profiles and CVs, AI-powered video analysis, a sports marketplace, professional accounts, and targeted advertising.",
+        "Building the Flutter application foundation and responsive UI using Clean Architecture and BLoC/Cubit; the project is in early development."
       ]
     },
     {
-      "title": "Mobile App Developer",
-      "company": "GTS (Global Technology Solutions)",
+      "title": "Freelance Flutter Developer",
+      "company": "BraceUp — Dental Education Platform",
+      "location": "Remote",
+      "date_range": "Mar 2026 - Present",
+      "description_points": [
+        "Independently developed and published an offline-first educational app for dental fellowships on Google Play and the Apple App Store, reaching approximately 60 installations.",
+        "Implemented SQLite with Supabase synchronization for authentication, database, storage, and real-time features.",
+        "Built a Flutter Web admin platform for managing mock exams, courses, and student bookings, deployed on Vercel.",
+        "Set up CI/CD using Codemagic and continue maintaining and improving the product."
+      ]
+    },
+    {
+      "title": "Flutter Developer",
+      "company": "GIRIX — ERP & Business Management Solutions",
       "location": "Mansoura, Egypt",
       "date_range": "Nov 2024 - Jun 2026",
       "description_points": [
-        "Developed and maintained 8+ cross-platform mobile applications using Flutter.",
-        "Collaborated with UI/UX designers and backend teams for API integration.",
-        "Prepared and deployed applications to Google Play and Apple App Store."
+        "Developed and maintained cross-platform Flutter applications across ERP, POS, e-commerce and delivery, sales, and customer support products.",
+        "Integrated REST APIs, implemented UI/UX designs, and prepared and deployed applications to Google Play and the Apple App Store.",
+        "Co-developed the reusable erp_calculator package with the team lead to centralize tax, discount, and billing calculations, then integrated it into Spider and validated it against application flows."
       ]
     },
     {
@@ -91,31 +100,8 @@
       "location": "Kafr El Sheikh, Egypt",
       "date_range": "Jun 2024 - Nov 2024",
       "description_points": [
-        "Delivered Flutter courses from beginner to advanced levels.",
-        "Covered UI development, state management, API integration, and Firebase.",
-        "Guided students through hands-on projects and Flutter best practices."
-      ]
-    },
-    {
-      "title": "Software Technology Summer Training",
-      "company": "Orange Digital Center",
-      "location": "Mansoura, Egypt",
-      "date_range": "Aug 2023 - Sep 2023",
-      "description_points": [
-        "Learned software engineering fundamentals including OOP and design patterns.",
-        "Built a structured software project applying best practices.",
-        "Implemented unit testing to improve reliability and code quality."
-      ]
-    },
-    {
-      "title": "Flutter Track Trainee",
-      "company": "Google Developer Student Club",
-      "location": "Egypt",
-      "date_range": "Dec 2022 - Sep 2023",
-      "description_points": [
-        "Developed Flutter applications using Dart.",
-        "Integrated REST APIs and GraphQL services.",
-        "Implemented local storage using SharedPreferences and Hive."
+        "Delivered Flutter courses from beginner to advanced levels, covering UI development, state management, API integration, and Firebase.",
+        "Guided students through practical projects and Flutter development best practices."
       ]
     }
   ],
@@ -123,8 +109,8 @@
     {
       "name": "The Kitchen (Restaurant POS)",
       "cover_image": "assets/covers/the_kitchen.png",
-      "short_description": "A tablet and mobile-based restaurant POS system integrated with ERP and CRM to manage dine-in, takeaway, and delivery orders.",
-      "description": "A restaurant POS system designed for tablets and mobile devices and integrated with ERP and CRM systems to streamline restaurant operations. The application manages dine-in, takeaway, and delivery orders while supporting key POS features such as invoice generation with thermal printing, order transfers, table switching, daily opening and closing sessions, reporting, collections, and refunds.",
+      "short_description": "A restaurant POS app integrated with ERP, supporting dine-in, takeaway, and delivery operations.",
+      "description": "Contributed to a restaurant POS application built with Flutter, Cubit, and Clean Architecture. It supports dine-in, takeaway, and delivery orders, real-time ERP synchronization, thermal invoice printing, order transfers, table switching, daily sessions, refunds, and reporting. Worked on testing around account and calculation-related functionality.",
       "date_range": "Nov 2025 - Mar 2026",
       "features": [
         "Full restaurant POS system for dine-in, takeaway, and delivery",
@@ -137,12 +123,12 @@
       "technologies_used": [
         "Flutter",
         "Dart",
-        "Cubit (State Management)",
+        "Cubit",
         "Clean Architecture",
-        "REST API",
+        "Real-time ERP Synchronization",
         "Thermal Printing",
-        "ERP Integration",
-        "Animations"
+        "Order Management",
+        "Refunds and Reporting"
       ],
       "links": [
         {
@@ -159,28 +145,25 @@
     {
       "name": "Brace Up",
       "cover_image": "assets/covers/braceup_cover.jpg",
-      "short_description": "An offline-first study companion app for orthodontic exams, featuring comprehensive resources, clinical images, and practice questions.",
-      "description": "Brace Up is your ultimate study companion for orthodontic exams, whether you're preparing for the British fellowship (FOrth) or your Master's degree. Explore comprehensive, evidence-based resources, clinical images, and practice questions designed to help you learn, understand, and apply every concept effectively, with a strong focus on offline-first functionality.",
+      "short_description": "An offline-first dental education app for fellowship preparation, supported by a Flutter Web administration platform.",
+      "description": "Independently developed and published an offline-first educational app for dental fellowships. Implemented SQLite with Supabase synchronization for authentication, database, storage, and real-time features, and built a Flutter Web admin platform for managing mock exams, courses, and student bookings, deployed on Vercel. Set up CI/CD with Codemagic and continue maintaining and improving the product.",
       "date_range": "Mar 2026 - Present",
       "features": [
-        "Offline-first architecture for studying without an internet connection",
-        "Comprehensive, evidence-based orthodontic study resources",
-        "Clinical image gallery and interactive practice questions",
-        "Encrypted local database for secure offline storage",
-        "In-app PDF document viewing capabilities",
-        "Interactive flip cards for active recall and memorization",
-        "Anti-screenshot protection for content security",
-        "Multi-language support and localization"
+        "Offline-first learning experience for dental fellowship preparation",
+        "Local SQLite storage with Supabase synchronization",
+        "Authentication, database, storage, and real-time features",
+        "Flutter Web admin platform for mock exams, courses, and student bookings",
+        "CI/CD pipeline using Codemagic",
+        "Published on Google Play and the Apple App Store"
       ],
       "technologies_used": [
         "Flutter",
         "Dart",
-        "BLoC/Cubit (State Management)",
-        "Clean Architecture",
+        "SQLite",
         "Supabase",
-        "SQLCipher (Sqflite)",
-        "GoRouter (Navigation)",
-        "GetIt (Dependency Injection)"
+        "Offline-first Architecture",
+        "Flutter Web",
+        "Codemagic CI/CD"
       ],
       "links": [
         {
@@ -194,7 +177,6 @@
       ],
       "media": []
     },
-
     {
       "name": "Islami Hub",
       "cover_image": "assets/covers/islami_cover.jpeg",
@@ -231,8 +213,8 @@
     {
       "name": "CRM GTS",
       "cover_image": "assets/covers/crm.png",
-      "short_description": "A customer support mobile application that allows users to submit, track, and manage support tickets in real time.",
-      "description": "CRM GTS is a customer support mobile application developed for GTS product users to submit, manage, and track support tickets efficiently. The app integrates Firebase Cloud Messaging for real-time push notifications and supports RESTful and GraphQL APIs for seamless communication with backend services. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture. Published on the Apple App Store.",
+      "short_description": "A customer support app for submitting and tracking tickets, with real-time push notifications.",
+      "description": "Contributed to a customer support application for submitting and tracking tickets. Built with Flutter using Cubit/BLoC and MVVM, it integrates REST and GraphQL APIs and Firebase Cloud Messaging for real-time push notifications.",
       "date_range": "Apr 2025 - Aug 2025",
       "features": [
         "Support ticket submission and tracking system",
@@ -261,34 +243,28 @@
     {
       "name": "Spider",
       "cover_image": "assets/covers/spider.png",
-      "short_description": "A comprehensive Business Management and POS application for real-time tracking of sales, inventory, and accounts.",
-      "description": "Spider is a comprehensive, real-time Business Management and Point-of-Sale (POS) mobile application developed for complete, moment-by-moment control over all aspects of a business, including sales, inventory, accounts, and reports. It streamlines business operations for faster management with enhanced intelligence, enabling user-friendly point-of-sale functionality, accurate inventory tracking, financial reporting, and efficient payment collections. Key technical features include the integration of a custom ERP calculator via a remote repository, real-time push notifications via Firebase Cloud Messaging, and seamless communication with RESTful and GraphQL APIs for backend data synchronization. Built using Flutter with Cubit and BLoC state management patterns following MVVM architecture, the application offers a simple and intuitive user experience.",
+      "short_description": "A real-time business management and POS app with ERP integration, receipt printing, barcode/QR scanning, and reusable calculation logic.",
+      "description": "Contributed to Spider, a real-time business management and POS application using Flutter, Cubit/BLoC, and MVVM. Worked on custom ERP integration, receipt printing, barcode and QR scanning, Firebase Cloud Messaging, and localization. Integrated the reusable erp_calculator package and tested its calculation logic through package and application demo flows.",
       "date_range": "Mar 2026 - Jun 2026",
       "features": [
-        "Complete real-time business management and POS system",
-        "Real-time tracking of sales, inventory, accounts, and detailed reports from a single interface",
-        "Point-of-Sale (POS) capabilities for quick and efficient sales operations",
-        "Custom integrated ERP calculator module",
-        "Real-time push notifications via Firebase Cloud Messaging",
-        "Barcode and QR code scanning for product and sales management",
-        "Receipt and image printing via POS printer integration",
-        "Support for RESTful and GraphQL API integration",
-        "User-friendly, intuitive interface for fast task completion",
-        "Multi-lingual support with simple localization",
-        "Robust state management using Cubit/BLoC",
-        "Scalable MVVM architecture for business growth"
+        "Real-time business management and POS workflows",
+        "Custom ERP integration",
+        "Reusable erp_calculator package for tax, discount, and billing calculations",
+        "Receipt printing and barcode/QR scanning",
+        "Firebase Cloud Messaging notifications",
+        "Localization support"
       ],
       "technologies_used": [
         "Flutter",
         "Dart",
+        "Cubit/BLoC",
+        "MVVM",
+        "ERP Integration",
+        "erp_calculator",
+        "Thermal Printing",
+        "Barcode and QR Scanning",
         "Firebase Cloud Messaging",
-        "REST API",
-        "Cubit / BLoC",
-        "MVVM Architecture",
-        "GoRouter",
-        "Hive (Local Storage)",
-        "Mobile Scanner",
-        "POS Printer Platform"
+        "Localization"
       ],
       "links": [],
       "media": []
@@ -351,19 +327,19 @@
       "links": [],
       "media": []
     },
-
     {
       "name": "GTS E-Commerce",
       "cover_image": "assets/covers/ecommerce_cover.png",
-      "short_description": "An ERP-integrated e-commerce platform for product browsing, secure order placement, purchase management, and online payment processing.",
-      "description": "Developed a full-featured e-commerce application integrated with an Enterprise Resource Planning (ERP) system to manage the entire sales lifecycle. Features include detailed product browsing, secure order placement, purchase history management, and integrated notifications. Crucially, the system incorporated a secure payment gateway for seamless online transactions and utilized SignalR for real-time updates and notification synchronization. Built with Flutter, Dart, and the Bloc/Cubit architecture following the MVVM pattern, ensuring high stability and efficient ERP integration.",
+      "short_description": "An ERP-integrated e-commerce app with payment gateways and real-time order updates.",
+      "description": "Developed the Flutter application as the sole Flutter developer within a cross-functional team. The e-commerce and delivery workflow integrates with ERP and supports payment gateways, real-time order updates using SignalR, delivery order acceptance or rejection, delivery tracking, payment collection, animations, and localization.",
       "date_range": "Jul 2025 - Oct 2025",
       "features": [
-        "Full-featured product catalog and browsing experience",
-        "Secure shopping cart and order placement integrated with ERP",
-        "Integrated secure payment gateway for online transactions",
-        "Real-time order status and notification system (SignalR/Firebase Messaging)",
-        "Comprehensive purchase history and management features"
+        "ERP-integrated product browsing and order placement",
+        "Payment gateway integration",
+        "Real-time order updates using SignalR",
+        "Delivery order acceptance and rejection",
+        "Delivery tracking and payment collection",
+        "Animations and localization"
       ],
       "technologies_used": [
         "Flutter",
@@ -382,7 +358,7 @@
     {
       "name": "GTS Delivery",
       "cover_image": "assets/covers/delivery_cover.png",
-      "short_description": "A real-time delivery management application integrated with the E-commerce system for order assignment, tracking, and payment collection.",
+      "short_description": "A delivery app integrated with an ERP-backed e-commerce system, supporting real-time order updates, tracking, and payment collection.",
       "description": "Developed a dedicated mobile application for delivery personnel, seamlessly connected to the e-commerce system to handle real-time logistics and order assignments. The app utilized SignalR for instant order updates and notifications, allowing delivery staff to accept or reject orders in real-time. Key features included secure payment collection, comprehensive order tracking, and advanced localization support, ensuring smooth, coordinated workflow between the e-commerce platform, customers, and the delivery team. Built using Flutter, Dart, and the Bloc/Cubit architecture following the MVVM pattern.",
       "date_range": "Sep 2025 - Oct 2025",
       "features": [
@@ -406,7 +382,6 @@
       "links": [],
       "media": []
     },
-
     {
       "name": "Ghosn App",
       "cover_image": "assets/covers/Ghosn.png",
@@ -437,6 +412,34 @@
       ],
       "links": [],
       "media": []
+    }
+  ],
+  "certifications_and_training": [
+    {
+      "title": "Software Engineer Certificate of Accomplishment",
+      "institution": "HackerRank",
+      "date": "Sep 2025"
+    },
+    {
+      "title": "Software Technology Track",
+      "institution": "Orange Digital Center",
+      "date": "Aug 2023 - Sep 2023",
+      "details": "OOP, design patterns, and unit testing"
+    },
+    {
+      "title": "Flutter Diploma",
+      "institution": "Google Developer Student Club",
+      "date": "Dec 2022 - Sep 2023"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Intermediate"
     }
   ]
 }

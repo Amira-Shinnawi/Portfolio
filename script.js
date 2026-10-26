@@ -521,6 +521,24 @@ async function loadDataWithData(data) {
     eduList.appendChild(card);
   });
 
+  // Certifications and training
+  const certificationsList = document.getElementById("certificationsList");
+  (data.certifications_and_training || []).forEach((certification) => {
+    const card = el(`
+      <article class="edu-card">
+        <h4>${sanitize(certification.title)}</h4>
+        <div class="meta">${sanitize(certification.institution)} • ${sanitize(
+          certification.date,
+        )}</div>
+        ${
+          certification.details
+            ? `<p class="muted">${sanitize(certification.details)}</p>`
+            : ""
+        }
+      </article>`);
+    certificationsList.appendChild(card);
+  });
+
   // Projects (without tech badges, with modal functionality)
   const grid = document.getElementById("projectsGrid");
   (data.projects || []).forEach((p, idx) => {
