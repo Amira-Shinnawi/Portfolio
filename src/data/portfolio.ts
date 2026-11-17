@@ -39,7 +39,7 @@ export const profile = {
   githubHandle: 'Amira-Shinnawi',
   linkedin: 'https://www.linkedin.com/in/amira-shinnawi/',
   linkedinHandle: 'in/amira-shinnawi',
-  cv: './Amira_Shinnawi_CV.pdf',
+  cv: './assets/downloads/Amira_Shinnawi_CV.pdf',
   photo: './profile.webp',
   valueProp:
     'I build and ship cross-platform Flutter apps for business, e-commerce and education — ERP-integrated POS systems, offline-first products, real-time features and payment flows — from first commit to App Store and Google Play.',

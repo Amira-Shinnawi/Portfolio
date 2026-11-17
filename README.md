@@ -8,7 +8,7 @@ Cross-platform Flutter apps for business, e-commerce and education — shipped t
 
 **[🌐 View the live portfolio](https://amira-shinnawi.github.io/Portfolio/)**
 
-[LinkedIn](https://www.linkedin.com/in/amira-shinnawi/) · [GitHub](https://github.com/Amira-Shinnawi) · [Download CV](https://amira-shinnawi.github.io/Portfolio/Amira_Shinnawi_CV.pdf)
+[LinkedIn](https://www.linkedin.com/in/amira-shinnawi/) · [GitHub](https://github.com/Amira-Shinnawi) · [Download CV](https://amira-shinnawi.github.io/Portfolio/assets/downloads/Amira_Shinnawi_CV.pdf)
 
 </div>
 
